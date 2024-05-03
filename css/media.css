@@ -1,0 +1,984 @@
+  /* animation media querry start */
+
+.animation-jump{
+    position: relative;
+    animation: jumping 2s ease-in-out infinite;
+  }
+  @keyframes jumping{
+    0%{
+      top: 3px;
+    }
+    50%{
+      top: -3px;
+    }
+    100%{
+      top: 3px;
+    }
+  }
+  .hero-cap h1{
+    font-size: 47px;
+    line-height: 58px;
+  }
+  /* animation media querry end */
+
+  @media only screen and (min-width: 320px ) and
+  (max-width: 359px){
+    .hero-cap h5{
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: 28px;
+    }
+    .hero-cap h1{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .hero-cap p{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .hero-cap li a{
+      margin-bottom: 25px;
+      line-height: 1;
+    }
+    .hero_img{
+      margin-top: 40px;
+    }
+    .hero_img img{
+      max-width: 250px;
+    }
+    .about-containt{
+      margin: 60px 0 0 0;
+      padding-left: 0;
+    }
+    .about-containt h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .about-containt h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .about-containt p{
+      font-size: 16px;
+      line-height: 26px;
+      margin: 0 0 25px;
+    }
+    .about-containt ul{
+      margin: 0;
+    }
+    .about-containt li{
+      font-size: 18px;
+    }
+    .about-containt .about-btn{
+      margin-top: 40px;
+    }
+    .feature-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .feature-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .feature-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .feat_head h4{
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .feat_title p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .feat_title{
+      margin-top: 10px;
+    }
+    .video-area{
+      padding: 75px 0 80px;
+    }
+    .video-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .video-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .video-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .discount-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .discount-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .discount-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .discount-btn button{
+      margin: 25px 0 35px;
+      line-height: 1;
+    }
+    .discount-img img{
+      max-width: 200px;
+    }
+    .discount-img{
+      text-align: center;
+    }
+    .discount-area{
+      padding: 80px 0 70px;
+    }
+    .testi-area{
+      padding: 70px 0 130px;
+    }
+    .testi-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .testi-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .testi-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .testi-area{
+      padding: 70px 0 130px;
+    }
+    .product-area{
+      padding: 75px 0 85px;
+    }
+    .product-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .product-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .product-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .faq-area{
+      padding: 75px 0 40px;
+    }
+    .faq-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .faq-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .faq-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .questions-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .newsletter-area{
+      padding: 75px 0 80px;
+    }
+    .newsletter-heading h6{
+      font-size: 14px;
+      line-height: 24px
+    }
+    .newsletter-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .newsletter-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .newsletter-form input{
+      height: 55px;
+    }
+    .newsletter-form button{
+      height: 55px;
+      padding: 0 20px;
+    }
+    .why-choose-area{
+      padding: 80px 0 35px;
+    }
+    .why-choose-heading{
+      margin: 60px 0 40px 0;
+    }
+    .why-choose-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .why-choose-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .why-choose-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .why-choose-cont{
+      margin-left: 0;
+    }
+    .why-choose-box .icon{
+      width: 12%;
+    }
+    .why-choose-box .cont{
+      padding-left: 10px;
+      width: 72%;
+    }
+    .facilities-area{
+      padding: 80px 0 20px;
+    }
+    .facilty-cont-box{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .facilty-cont-box .icon{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .facilty-cont-box .cont{
+      width: 100%;
+    }
+    .facilty-cont-box .cont h4{
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .facilty-cont-box .cont p{
+      font-size: 16px;
+      line-height: 26px
+    }
+    .contact-area{
+      padding: 80px 0 30px;
+    }
+    .contact-heading{
+      padding-bottom: 50px;
+    }
+    .contact-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .contact-heading h2{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .contact-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .contact-info{
+      margin: 50px 0 0 0px;
+    }
+    .contact-info p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .footer-top{
+      padding: 75px 0;
+    }
+    .footer-box{
+      margin-bottom: 25px;
+    }
+    .footer-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .footer-btm p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }  
+  
+  @media only screen and (min-width: 360px ) and
+  (max-width: 479px)
+  {
+    .hero-cap h5{
+      margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .hero-cap h1{
+      line-height: 55px;
+    }
+    .hero-cap p{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .hero-cap li a{
+      margin-bottom: 25px;
+    }
+    .hero_img{
+      margin-top: 40px;
+    }
+    .hero_img img{
+      max-width: 250px;
+    }
+    .about-containt{
+      margin-top: 60px;
+    }
+    .about-containt{
+      padding-left: 0;
+    }
+    .about-containt h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .about-containt h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .about-containt p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .about-containt ul{
+      margin: 0;
+    }
+    .about-containt li{
+      font-size: 18px;
+    }
+    .about-containt .about-btn{
+      margin-top: 40px;
+    }
+    .about-containt .about-btn a{
+      line-height: 1;
+    }
+    .feature-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .feature-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .feature-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .feat_title{
+      margin-top: 10px;
+    }
+    .feat_head h4{
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .video-area{
+      padding: 75px 0 80px;
+    }
+    .video-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .video-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .video-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .discount-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .discount-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .discount-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .discount-btn button{
+      margin: 25px 0 35px;
+      line-height: 1;
+    }
+    .discount-img img{
+      max-width: 250px;
+    }
+    .testi-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .testi-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .testi-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .testi-area{
+      padding: 70px 0 130px;
+    }
+    .product-area{
+      padding: 75px 0 85px;
+    }
+    .product-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .product-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .product-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .faq-area{
+      padding: 75px 0 40px;
+    }
+    .faq-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .faq-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .faq-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .questions-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }.newsletter-area{
+      padding: 75px 0 80px;
+    }
+    .newsletter-heading h6{
+      font-size: 14px;
+      line-height: 24px
+    }
+    .newsletter-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .newsletter-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .newsletter-form input{
+      height: 55px;
+    }
+    .newsletter-form button{
+      height: 55px;
+      padding: 0 20px;
+    }
+    .why-choose-area{
+      padding: 80px 0 35px;
+    }
+    .why-choose-heading{
+      margin: 60px 0 40px 0;
+    }
+    .why-choose-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .why-choose-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .why-choose-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .why-choose-cont{
+      margin-left: 0;
+    }
+    .why-choose-box .icon{
+      width: 12%;
+    }
+    .why-choose-box .cont{
+      padding-left: 10px;
+      width: 78%;
+    }
+    .facilities-area{
+      padding: 80px 0 20px;
+    }
+    .facilty-cont-box{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .facilty-cont-box .icon{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .facilty-cont-box .cont{
+      width: 100%;
+    }
+    .facilty-cont-box .cont h4{
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .facilty-cont-box .cont p{
+      font-size: 16px;
+      line-height: 26px
+    }
+    .contact-area{
+      padding: 80px 0 30px;
+    }
+    .contact-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .contact-heading h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .contact-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .contact-info{
+      margin: 50px 0 0 0px;
+    }
+    .contact-info p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .footer-top{
+      padding: 75px 0;
+    }
+    .footer-box{
+      margin-bottom: 25px;
+    }
+    .footer-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .footer-btm p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  
+  @media only screen and (min-width: 480px ) and
+  (max-width: 767px)
+  {
+    .hero-area{
+      padding: 100px 0 150px;
+    }
+    .hero_img{
+      margin: 60px 0 0;
+    }
+    .hero_img img{
+      max-width: 300px;
+    }
+    .hero-cap h1{
+      line-height: 60px;
+    }
+    .hero-cap li a{
+      line-height: 1;
+    }
+    .about-containt{
+      margin-top: 60px;
+    }
+    .about-containt{
+      padding-left: 0;
+    }
+    .about-containt h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .about-containt h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .about-containt p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .about-containt ul{
+      margin: 0;
+    }
+    .about-containt li{
+      font-size: 18px;
+    }
+    .about-containt .about-btn{
+      margin-top: 40px;
+    }
+    .about-containt .about-btn a{
+      line-height: 1;
+    }
+    .feature-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .feature-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .feature-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .feat_head{
+      margin-top: 20px;
+    }
+    .feat_head h4{
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .feat_title p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .video-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .video-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .video-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .discount-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .discount-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .discount-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .discount-btn button{
+      margin: 25px 0 50px;
+      line-height: 1;
+    }
+    .discount-img img{
+      max-width: 250px;
+    }
+    .discount-area{
+      padding: 95px 0 40px;
+    }
+    .testi-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .testi-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .testi-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .product-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .product-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .product-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .faq-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .faq-heading h2{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .faq-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .questions-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+  .newsletter-heading h6{
+    font-size: 14px;
+    line-height: 24px
+  }
+  .newsletter-heading h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .newsletter-heading p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .newsletter-form input{
+    height: 55px;
+  }
+  .newsletter-form button{
+    height: 55px;
+  }
+  .why-choose-heading{
+    margin: 60px 0 40px 0;
+  }
+  .why-choose-heading h6{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .why-choose-heading h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .why-choose-heading p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .why-choose-cont{
+    margin-left: 0;
+  }
+  .facilities-area{
+    padding: 80px 0 20px;
+  }
+  .facilty-cont-box{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .facilty-cont-box .icon{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .facilty-cont-box .cont{
+    width: 100%;
+  }
+  .facilty-cont-box .cont h4{
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .facilty-cont-box .cont p{
+    font-size: 16px;
+    line-height: 26px
+  }
+  .contact-area{
+    padding: 80px 0 30px;
+  }
+  .contact-heading h6{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .contact-heading h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .contact-heading p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .contact-info{
+    margin: 50px 0 0 0px;
+  }
+  .contact-info p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer-top{
+    padding: 75px 0;
+  }
+  .footer-box{
+    margin-bottom: 25px;
+  }
+  .footer-box p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer-btm p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px)
+  {
+    .hero-cap h1{
+      font-size: 47px;
+      line-height: 58px;
+    }
+    .hero-cap p{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .about-containt h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .about_img img{
+      max-width: 250px;
+    }
+    .about_img{
+      align-items: center;
+    }
+    .feature-heading h6{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .feature-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .video-heading h6{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .video-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .discount-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .discount-btn button{
+      padding: 10px 30px;
+    }
+    .testi-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .testi-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .testi-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .product-heading h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .product-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .product-heading p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .faq-area{
+      padding: 95px 0 55px;
+    }
+    .faq-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .newsletter-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .why-choose-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .facilty-cont-box .icon{
+      float: left;
+    }
+    .facilty-cont-box .icon i{
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 30px;
+    }
+    .facilty-cont-box .cont{
+      padding: 0 0 0 15px;
+      float: right;
+    }
+    .facilty-cont-box .cont h4{
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .contact-area{
+      padding: 80px 0 30px;
+    }
+    .contact-heading h6{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .contact-heading h2{
+      font-size: 44px;
+      line-height: 54px;
+    }
+    .contact-info{
+      margin: 50px 0 0 0px;
+    }
+    .footer-top{
+      padding: 75px 0;
+    }
+    .footer-box{
+      margin-bottom: 25px;
+    }
+    .footer-box p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+  .facilities-area{
+    padding: 100px 0 75px;
+  }
+  .facilty-cont-box .icon{
+    float: left;
+    width: 22%;
+  }
+  .facilty-cont-box .icon i{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+  }
+  .facilty-cont-box .cont{
+    padding: 0 0 0 15px;
+    float: right;
+    width: 78%;
+  }
+  .facilty-cont-box .cont h4{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+  @media (max-width: 991.98px){
+    .mob_main_menu{
+      display: block;
+    }
+    .mob_main_menu .mob-links{
+      display: block;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .mob_main_menu ul li .mob-links:hover{
+      color: var(--text-color);
+    }
+    .mob_shop-btn a{
+      border: 1px solid #ff6348;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #ff6348;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .mob_shop-btn a:hover{
+      background-color: var(--white);
+      color: var(--text-color);
+    }
+  }
