@@ -93,7 +93,7 @@
                         <div class="menubar text-center">
                             <ul class="d-inline-flex align-items-center">
                                 <li>
-                                    <a href="#Home" class="nav_links">Home</a>
+                                    <a href="#Home" class="nav_links active">Home</a>
                                 </li>
                                 <li>
                                     <a href="#Features" class="nav_links">Features</a>
@@ -128,7 +128,7 @@
             <div class="mob_main_menu text-center">
                 <ul>
                     <li>
-                        <a href="#Home" class="mob-links">Home</a>
+                        <a href="#Home" class="mob-links active">Home</a>
                     </li>
                     <li>
                         <a href="#Features" class="mob-links">Features</a>
@@ -932,6 +932,16 @@
             })
         })
         // mob menu end
+
+        // add active class
+        $('.menubar li a').click(function(){
+            $('.menubar li a').removeClass('active')
+            $(this).addClass('active')
+        })
+        $('.mob_main_menu li a').click(function(){
+            $('.mob_main_menu li a').removeClass('active')
+            $(this).addClass('active')
+        })
 // ---------------------------------------------//
 
         // owl-carousel first testimonial start
